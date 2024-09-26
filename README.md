@@ -33,6 +33,7 @@ You can install these packages using pip if they are not already installed:
 
 ```bash
 pip install requests beautifulsoup4 pandas matplotlib
+```
 
 ## Notes
 
