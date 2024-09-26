@@ -1,55 +1,40 @@
-# WebScraping and Data Analysis
+# Web Scraping and Data Analysis
+
 This script demonstrates how to scrape data from a webpage, process it, and visualize it using Python. Specifically, it extracts population and wedding statistics from the website Geostat.ge, processes the data into a DataFrame, and creates visualizations.
 
-Overview
+## Overview
 
 The script performs the following tasks:
 
+### 1. Fetch HTML Content
+- Retrieves the HTML content of the Geostat.ge homepage.
 
-Fetch HTML Content:
- 
-Retrieve the HTML content of the Geostat.ge homepage.
+### 2. Extract Links and Data
+- Extracts links, headings, and statistics from the homepage.
 
+### 3. Fetch Detailed Data
+- Retrieves and parses additional data from the provided links.
 
-Extract Links and Data:
+### 4. Data Cleaning and Processing
+- Cleans and processes the data, including handling Georgian text and converting values.
 
-Extract links, headings, and statistics from the homepage.
+### 5. Visualization
+- Generates line and bar plots to visualize population and wedding statistics over the years.
 
-
-Fetch Detailed Data:
-
-Retrieve and parse additional data from the provided links.
-
-
-Data Cleaning and Processing:
-
-Clean and process the data, including handling Georgian text and converting values.
-
-
-Visualization:
-
-Generate line and bar plots to visualize population and wedding statistics over the years.
-
-
-Requirements
+## Requirements
 
 Ensure you have the following Python packages installed:
-
-requests
-
-beautifulsoup4
-
-pandas
-
-matplotlib
+- **requests**
+- **beautifulsoup4**
+- **pandas**
+- **matplotlib**
 
 You can install these packages using pip if they are not already installed:
 
+```bash
 pip install requests beautifulsoup4 pandas matplotlib
 
-
-
-Notes
+## Notes
 
 The script assumes that the webpage structure and the table format remain consistent. If the structure changes, adjustments to the parsing logic may be required.
 
